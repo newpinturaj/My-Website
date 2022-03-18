@@ -3,6 +3,7 @@
 body{
     text-align: center;
     background-color: #E3FDFD;
+    margin:0;
 }
 
 a{
@@ -10,10 +11,41 @@ a{
     color: rgb(78, 78, 78);
 }
 
+hr{
+    width: 5%;
+    border: 8px dotted;
+    border-bottom: none;
+    color: rgb(190, 237, 245)
+
+}
+
+h3{
+    color: #71C9CE;
+    margin-top: 0;
+}
+
+strong{
+    display: inline-block;
+    padding: 0 5px 0;
+    color: rgb(78, 78, 78);
+}
 /************* CLASS SELECTOR ***************/
 
 .heading{
     color: #71C9CE;
+}
+
+.header{
+    background-color: #96e8ec;
+    margin: 0;
+    opacity: 0.4;
+    height: 50px;
+}
+
+.header-text{
+
+    position: absolute;
+    top: 1px;
 }
 
 .logo{
@@ -22,13 +54,14 @@ a{
 
 }
 
-.social-media{
+/* .social-media{
     
-}
+} */
 
 .profile-pic{
     border-radius: 200%;
-    width:200px;
+    width:150px;
+    margin-top:20px;
 }
 
 .paragraph{
@@ -74,3 +107,22 @@ a{
 
 
 }
+
+#home{
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#skills{
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#academic{  
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 0;
+
+}   
