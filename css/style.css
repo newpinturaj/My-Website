@@ -1,0 +1,76 @@
+/************* TAG SELECTOR ***************/
+
+body{
+    text-align: center;
+    background-color: #E3FDFD;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+/************* CLASS SELECTOR ***************/
+
+.heading{
+    color: #71C9CE;
+}
+
+.logo{
+    width: 30px;
+
+
+}
+
+.social-media{
+    
+}
+
+.profile-pic{
+    border-radius: 200%;
+    width:200px;
+}
+
+.paragraph{
+    color: rgb(78, 78, 78);
+}
+/************* ID SELECTOR ***************/
+
+#insta{
+    display: inline-block;
+    margin: 10px;
+}
+
+#linkedin{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#github{
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+#facebook{
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+#email{
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+#twitter{
+    display: inline-block;
+    margin: 10px;
+
+
+}
